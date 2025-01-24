@@ -4,8 +4,8 @@ import GithubProvider from "next-auth/providers/github";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import { prisma } from "@/lib/prisma";
 
-console.log("GITHUB_ID:", process.env.GITHUB_ID);
-console.log("GITHUB_SECRET:", process.env.GITHUB_SECRET);
+// console.log("GITHUB_ID:", process.env.GITHUB_ID);
+// console.log("GITHUB_SECRET:", process.env.GITHUB_SECRET);
 
 export const authOptions: NextAuthOptions = {
     secret: process.env.NEXTAUTH_SECRET,
